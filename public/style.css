@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+body {
+  background-color: #222222;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: -19px;
+  top: 0;
+  padding: 0;
+}
+
+
+/* header  */
+.navbar {
+  background-color: #313131;
+  z-index:  1;
+  width: 100%;
+}
+
+.icon{
+
+background-color: #05caad;
+}
+
+.icons{
+  border: 2px solid #11f0f0;
+}
+
+.navbar-brand {
+  color: #05caad;
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: cursive, sans-serif;
+}
+
+.navbar-brand:hover {
+  color: #05caad;
+}
+
+.nav-links {
+  height: 2em;
+}
+.link {
+  font-family: cursive;
+  color: white;
+}
+
+.link:hover {
+  color: #05caad;
+}
+
+li a {
+  text-decoration: none;
+  font-family: serif;
+  font-size: 22px;
+}
+
+
+/* home page */
+
+.content {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  margin-top: 1rem;
+}
+
+.heading {
+  width: 70%;
+  margin-left: auto;
+  border: 1px solid #33ccad;
+  font-family: "Oswald", sans-serif;
+  font-weight: 30px;
+  margin-right: auto;
+  color: #05caad;
+  padding: 2px;
+  font-size: 80px;
+}
+
+.main-content {
+  font-family: "Benne", serif;
+  font-size: 35px;
+  color: #daf0f0;
+}
+.submit {
+  padding: 7px 8px;
+  color: white;
+  background-color: #33ccad;
+  font-family: "Benne", serif;
+  font-size: 20px;
+  border: none;
+}
+.submit:hover {
+  background-color: #1e5048d0;
+  color: #11f0f0;
+}
+
+/* customerlist */
+.customer-list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.view-header {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  color: #05caad;
+  margin-left: 5rem;
+}
+table {
+  align-content: center;
+  align-items: center;
+ 
+}
+.header1 th {
+  color: #05caad;
+  font-family: "Work Sans", sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+.header2 td {
+  font-size: 1em;
+  padding: 8px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #11f0f0;
+}
+.select-btn {
+  padding: 8px;
+  background-color: #05caad;
+  border-radius: 5px;
+  border: none;
+}
+.select-btn a {
+  text-decoration: none;
+  color: white;
+}
+.select-btn:hover {
+  background-color: #1e5048d0;
+}
+
+/* transfer */
+.transfer-header {
+  padding: 5px;
+  text-align: center;
+  margin: 0;
+  color: #05caad;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+}
+.transfer-btn {
+  padding: 10px;
+  background-color: #33ccad;
+  border: none;
+}
+.transfer-btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* form */
+.box-container {
+  background-color: #313131;
+  margin-left: 400px;
+  margin-right: 500px;
+  margin-top: 100px;
+  padding: 25px;
+  display: block;
+  border-radius: 15px;
+}
+.form-body1 {
+  font-size: 15px;
+  font-family: "Noto Serif", serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.transfer1 {
+  margin-top: 7px;
+  color: #05caad;
+  font-weight: bold;
+}
+
+.transfer2 {
+  color: white;
+}
+.form {
+  margin-top: 5px;
+  text-align: center;
+  padding: 2px;
+}
+.form label {
+  font-size: 17px;
+  font-family: "Noto Serif", serif;
+}
+.form input {
+  padding: 3px;
+  margin: 5px;
+  font-size: 20px;
+}
+.error{
+  height: 400px;
+  width: 400px;
+  background-color: #222222;
+  
+  margin: auto auto;
+  color: wheat;
+  text-align: center;
+}
+
+/* history */
+.history-header {
+  color: #05caad;
+  font-size: 15px;
+  margin: 0;
+  padding: 7px;
+  text-align: center;
+}
+
+/* footer  */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #05caad;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bold;
+  
+}
+
+/* about  */
+.about {
+  width: 60%;
+  height: 60vh;
+  color: #05caad;
+  background-color: #313131;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  text-align: center;
+}
+.about1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cards {
+  background-color: #222222;
+  border-radius: 15px;
+}
+.cards li {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
