@@ -3,7 +3,7 @@ const app = express()
 require('dotenv').config()
 const path = require('path');
 const mongoose = require('mongoose');
-const port = 3000 || process.env.PORT;
+const port =  process.env.PORT || '8080';
 const methodOverride =require('method-override');
 
 
