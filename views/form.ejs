@@ -1,34 +1,40 @@
 <%- include("partials/header") %>
 
-<div class='box-container animate__animated animate__backInUp'>
-	<div class="form-body1">
-    <h1 class="transfer1">Transferring From : </h1>
-    <h3 class="transfer2">Customer Name : <%= fromUser.name %></h3>
-    <h3 class="transfer2">Balance = <%= fromUser.credits %></h3>  
 
-    <h1 class ='transfer1'>Transferring To : </h1>
+<div class="container1 animate__animated animate__backInUp container my-5 text-center">
+  <div class=" items1">
+    <h1 class="transfer1">Transferring From :</h1>
+    <h3 class="transfer2">Customer Name : <%= fromUser.name %></h3>
+    <h3 class="transfer2">Balance = <%= fromUser.credits %></h3>
+
+    <h1 class="transfer1">Transferring To :</h1>
     <h3 class="transfer2">Customer Name : <%= toUser.name %></h3>
     <h3 class="transfer2">Balance = <%= toUser.credits %></h3>
-	</div>
 
-<div class="form">
-    <form action="/view/<%= fromUser._id %>/<%= toUser._id %>?_method=PUT" method="POST">
+  </div>
+  <div class="items2">
+    <form
+    action="/view/<%= fromUser._id %>/<%= toUser._id %>?_method=PUT"
+    method="POST"
+  >
     <label class="transfer2" for="credits">Amount to be transferred :</label>
-    <br>
-    <input type="number" id="credit" name="credit" placeholder=""
-		   value="">
-    <br><br>
-    <button class="btn btn-danger" onclick="myFunction()">Confirm Transaction</button>
-    </form>
-</div>
-
+    <br />
+    <input type="number" id="credit" name="credit" placeholder="" value="" />
+    <br /><br />
+    <button class="btn btn-danger" onclick="myFunction()">
+      Confirm Transaction
+    </button>
+  </form>
+  </div>
+ 
+ 
 </div>
 
 
 <script>
-function myFunction() {
-  alert("Transaction Successful");
-}
+  function myFunction() {
+    alert("Transaction Successful");
+  }
 </script>
 
 <%- include("partials/footer") %>

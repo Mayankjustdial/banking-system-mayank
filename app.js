@@ -28,6 +28,7 @@ mongoose.connect(process.env.MONGODB_URL,{
 .catch(error => console.log(error.message)); 
 
 
+//Routes
 app.get('/',(req,res)=>{
 	res.render('home');
 });
@@ -93,6 +94,7 @@ app.get('/about',(req,res)=>{
 
 
 
+//server
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })

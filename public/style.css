@@ -15,20 +15,18 @@ body {
   padding: 0;
 }
 
-
 /* header  */
 .navbar {
   background-color: #313131;
-  z-index:  1;
+  z-index: 1;
   width: 100%;
 }
 
-.icon{
-
-background-color: #05caad;
+.icon {
+  background-color: #05caad;
 }
 
-.icons{
+.icons {
   border: 2px solid #11f0f0;
 }
 
@@ -61,10 +59,9 @@ li a {
   font-size: 22px;
 }
 
-
 /* home page */
 
-.content {
+/* .content {
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -100,8 +97,66 @@ li a {
 .submit:hover {
   background-color: #1e5048d0;
   color: #11f0f0;
+} */
+.home {
+  /* background: #eee; */
+  width: 80%;
+  margin: 110px auto;
+  display: grid;
+  grid-template-rows: repeat(2, 150px);
+ 
+
+}
+.home1 {
+  background: #222222;
+  border:1px solid #33ccad;
+  color: #33ccad;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  padding: 2px;
+  font-size: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+.home2 {
+  background: #222222;
+  display: grid;
+  text-align: center;
+  font-family: "Benne", serif;
+  font-size: 40px;
+  color: #daf0f0;
+  /* order: 4; */
+}
+.submit {
+  padding: 7px 8px;
+  color: white;
+  background-color: #33ccad;
+  font-family: "Benne", serif;
+  font-size: 20px;
+  border: none;
+}
+.submit:hover {
+  background-color: #1e5048d0;
+  color: #11f0f0;
+} 
+@media screen and (min-width: 601px) {
+  div.home1 {
+    font-size: 80px;
+  }
 }
 
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.home1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  div.home1 {
+    font-size: 20px;
+  }
+}
 /* customerlist */
 .customer-list {
   margin-left: auto;
@@ -118,7 +173,6 @@ li a {
 table {
   align-content: center;
   align-items: center;
- 
 }
 .header1 th {
   color: #05caad;
@@ -166,21 +220,25 @@ table {
   text-decoration: none;
 }
 /* form */
-.box-container {
-  background-color: #313131;
-  margin-left: 400px;
-  margin-right: 500px;
-  margin-top: 100px;
-  padding: 25px;
-  display: block;
+
+.container1 {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-rows: 300px 200px;
+  padding: 0;
   border-radius: 15px;
 }
-.form-body1 {
-  font-size: 15px;
-  font-family: "Noto Serif", serif;
-  padding: 0;
-  margin: 0;
-  text-align: center;
+.items1 {
+  background: #313131;
+  border-radius: 15px 15px 0 0;
+  padding-top: 10px;
+}
+.items2 {
+  padding-top: 10px;
+  background: #313131;
+  border-radius: 0px 0px 15px 15px;
 }
 .transfer1 {
   margin-top: 7px;
@@ -191,11 +249,7 @@ table {
 .transfer2 {
   color: white;
 }
-.form {
-  margin-top: 5px;
-  text-align: center;
-  padding: 2px;
-}
+
 .form label {
   font-size: 17px;
   font-family: "Noto Serif", serif;
@@ -205,11 +259,11 @@ table {
   margin: 5px;
   font-size: 20px;
 }
-.error{
+
+.error {
   height: 400px;
   width: 400px;
   background-color: #222222;
-  
   margin: auto auto;
   color: wheat;
   text-align: center;
@@ -235,7 +289,6 @@ table {
   text-align: center;
   margin-bottom: 0;
   font-weight: bold;
-  
 }
 
 /* about  */
@@ -261,12 +314,3 @@ table {
 .cards li {
   color: white;
 }
-
-
-
-
-
-
-
-
-
