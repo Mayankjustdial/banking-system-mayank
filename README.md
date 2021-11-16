@@ -7,7 +7,7 @@ A Web Application used to transfer money between multiple users
 
 ## Tech Stack
 
-**Front-end:** Ejs,Bootstrap,External CSS, Animate.css
+**Front-end:** Ejs,Javascript, Bootstrap,External CSS, Animate.css
 
 **Server:** Node, Express 
 
